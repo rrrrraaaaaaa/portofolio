@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Informatic</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader" class="loader">
+        <div class="loader-cube">
+            <div class="face front"></div>
+            <div class="face back"></div>
+            <div class="face right"></div>
+            <div class="face left"></div>
+            <div class="face top"></div>
+            <div class="face bottom"></div>
+        </div>
+        <div class="loader-text">Loading...</div>
+    </div>
+
+    <!-- 3D Background Animation -->
+    <div class="bg-animation">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+            <div class="shape shape-6"></div>
+            <div class="shape shape-7"></div>
+            <div class="shape shape-8"></div>
+        </div>
+        <div class="geometric-grid"></div>
+    </div>
+
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Portfolio</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certificates" class="nav-link">Certificates</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-container">
+            <div class="home-content">
+                <div class="home-text">
+                    <h1 class="home-title">
+    <span class="typing-text" data-words='["Informatic", "Cyber Security"]'></span>
+</h1>
+                    <p class="home-description">
+                        Hi! I’m Nur Rezky, an IT student passionate about cyber security & web development.
+                        Let’s build safe and stunning digital experiences.
+                    </p>
+                    <div class="home-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View Portfolio</span>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Contact Me</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-image">
+                    <div class="image-3d">
+                        <div class="floating-cube cube-1"></div>
+                        <div class="floating-cube cube-2"></div>
+                        <div class="floating-cube cube-3"></div>
+                        <div class="profile-card">
+                            <div class="profile-image">
+                                <img src="images/fixx.png" alt="Profile">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know more about me</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <h3>Who am I??</h3>
+                        <p>
+                            I’m an Information Technology student with a strong interest in both web development and cyber security.
+                            I enjoy combining technical problem solving with creative design to build secure, modern digital solutions.
+                            I’ve worked on projects involving ethical hacking, web design, and system analysis — and I’m always eager to learn something new.
+                        </p>
+                        <div class="about-stats">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-3d">
+                        <div class="rotating-ring ring-1"></div>
+                        <div class="rotating-ring ring-2"></div>
+                        <div class="rotating-ring ring-3"></div>
+                        <!-- About Profile Photo -->
+                        <div class="about-profile">
+                            <div class="about-photo">
+                                <img src="images/fixx.png" alt="About Me Photo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">Educational Background</p>
+            </div>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <div class="timeline-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h3>Bachelor of Informatics </h3>
+                            <h4>President University</h4>
+                            <span class="timeline-date">2023-Present</span>
+                            <p>Focused on web development, cyber security, and information systems.
+                                Developed a strong foundation in programming (Python, Java, JavaScript), database management, and system security analysis
+                                through academic and self-initiated projects.</p>
+                                <p class="edu-detail">
+                                
+                                    </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <div class="timeline-icon">
+                                <i class="fas fa-school"></i>
+                            </div>
+                            <h3>Madrasah Aliyah Negeri 1 Kendari</h3>
+                            <h4>Science Major (Olympiad Class)</h4>
+                            <span class="timeline-date">2020 - 2023</span>
+                            <p>Focused on Mathematics and Physics through the Olympiad enrichment program.</p>
+                            <ul class="edu-extra">
+                                
+                                    </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+    <div class="container">
+    <div class="section-header">
+    <h2 class="section-title">Skills</h2>
+    <p class="section-subtitle">Technologies and tools I work with</p>
+    </div>
+
+    <div class="skills-grid">
+    <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+        <h3>HTML5</h3>
+        <div class="skill-progress"><div class="progress-bar" data-percentage="90%"></div></div>
+        <span class="skill-percentage">90%</span>
+    </div>
+
+    <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+        <h3>CSS3</h3>
+        <div class="skill-progress"><div class="progress-bar" data-percentage="85%"></div></div>
+        <span class="skill-percentage">85%</span>
+    </div>
+
+    <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-js-square"></i></div>
+        <h3>JavaScript</h3>
+        <div class="skill-progress"><div class="progress-bar" data-percentage="80%"></div></div>
+        <span class="skill-percentage">80%</span>
+    </div>
+
+    <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-java"></i></div>
+        <h3>Java</h3>
+        <div class="skill-progress"><div class="progress-bar" data-percentage="70%"></div></div>
+        <span class="skill-percentage">70%</span>
+    </div>
+
+    <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-python"></i></div>
+        <h3>Python</h3>
+        <div class="skill-progress"><div class="progress-bar" data-percentage="75%"></div></div>
+        <span class="skill-percentage">75%</span>
+    </div>
+
+    <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-php"></i></div>
+        <h3>PHP</h3>
+        <div class="skill-progress"><div class="progress-bar" data-percentage="65%"></div></div>
+        <span class="skill-percentage">65%</span>
+    </div>
+
+    <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-terminal"></i></div>
+        <h3>Linux</h3>
+        <div class="skill-progress"><div class="progress-bar" data-percentage="75%"></div></div>
+        <span class="skill-percentage">75%</span>
+    </div>
+
+    <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-android"></i></div>
+        <h3>Android Studio</h3>
+        <div class="skill-progress"><div class="progress-bar" data-percentage="65%"></div></div>
+        <span class="skill-percentage">65%</span>
+    </div>
+
+    <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+        <h3>Flutter</h3>
+        <div class="skill-progress"><div class="progress-bar" data-percentage="60%"></div></div>
+        <span class="skill-percentage">60%</span>
+    </div>
+
+    <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-bug"></i></div>
+        <h3>Burp Suite</h3>
+        <div class="skill-progress"><div class="progress-bar" data-percentage="70%"></div></div>
+        <span class="skill-percentage">70%</span>
+    </div>
+
+    <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+        <h3>Wireshark</h3>
+        <div class="skill-progress"><div class="progress-bar" data-percentage="65%"></div></div>
+        <span class="skill-percentage">65%</span>
+    </div>
+    </div>
+</div>
+</section>
+
+    <!-- Projects Section -->
+<section id="projects" class="projects">
+<div class="container">
+    <div class="section-header">
+    <h2 class="section-title">Projects</h2>
+    
+    </div>
+
+    <div class="projects-grid">
+
+    <!-- Project Card -->
+    <div class="project-card">
+        <div class="project-image">
+        <img src="images/AIfit.png" alt="CyberFitCoach">
+        </div>
+        <div class="project-content">
+        <h3>CyberFitCoach</h3>
+        <p>Engineered an AI-powered fitness coaching system with Python that collects
+            health data, verifies user identities, and provides customized workout and diet plans
+            through an interactive conversational interface.</p>
+        <div class="project-buttons">
+            <a href="https://github.com/rrrrraaaaaaa/AICyberFitCoachN2S/tree/main/AIFinalProject-main/AIFinalProject-main" class="btn btn-secondary btn-view-code" target="_blank">View Code</a>
+        </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+        <img src="images/enrollmentapp.png" alt="EnrollmentApp">
+        </div>
+        <div class="project-content">
+        <h3>EnrollmentApp</h3>
+        <p>Developed an Android-based enrollment solution to streamline academic registration processes. Built with Java/Kotlin in Android Studio, 
+            the platform features secure student onboarding, intuitive course selection, and real-time enrollment confirmation.</p>
+        <div class="project-buttons">
+            <a href="https://github.com/rrrrraaaaaaa/enrollmentapp" class="btn btn-secondary btn-view-code" target="_blank">View Code</a>
+        </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+        <img src="images/work-laundry.png" alt="WorkLaundry">
+        </div>
+        <div class="project-content">
+        <h3>Laundry Website</h3>
+        <p>The Laundry Management System is a Java-based desktop application designed to streamline laundry business operations. It provides an efficient solution for managing customer orders, tracking payments, monitoring inventory, and generating reports all in one integrated platform.
+            Built using Object-Oriented Programming (OOP) principles, this system ensures modularity, scalability, and maintainability.</p>
+        <div class="project-buttons">
+            <a href="https://github.com/rrrrraaaaaaa/FinalProjectOOVP/tree/main/FinalProjectOOVP-main" class="btn btn-secondary btn-view-code" target="_blank">View Code</a>
+        </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+        <img src="images/Health&Fitness.jpg" alt="Health and Fitness">
+        </div>
+        <div class="project-content">
+        <h3>Health & Fitness App</h3>
+        <p>Designed and built a comprehensive Android application using Kotlin to promote a healthy lifestyle. The app integrates advanced features such as step counting using device sensors, continuous heart rate monitoring,
+            a library of workout demonstration videos, nutritional recommendations, and a community chat function for real-time interaction among users.</p>
+        <div class="project-buttons">
+            <a href="https://github.com/rrrrraaaaaaa/ProjectWMPSE-N2S/tree/main/PROJECT-WMP-SE-N2S" class="btn btn-secondary btn-view-code" target="_blank">View Code</a>
+        </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+        <img src="images/kemhan.png" alt="Profilling">
+        </div>
+        <div class="project-content">
+        <h3>profiling hacker by kemhan</h3>
+        <p>Conducted comprehensive profiling of five active hacker groups in Indonesia (2024-2025) using advanced OSINT techniques including social media investigation, framework-based analysis, and digital footprint mapping.
+
+Combined OSINT tools with structured frameworks (MITRE ATT&CK, OSINT Framework) and social media analysis to uncover identities, infrastructure, and operational patterns while maintaining ethical boundaries.
+
+Identified operational links between groups, mapped infrastructure, and developed threat actor profiles with TTPs (Tactics, Techniques, and Procedures) for each group.</p>
+        <div class="project-buttons">
+            <a href="https://docs.google.com/document/d/1LtoRgxNAslMnsF81ZDljoWcs81z9-flGpT3BKX21G_A/edit?usp=sharing  " class="btn btn-secondary btn-view-code" target="_blank">View Code</a>
+        </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+        <img src="images/CTF.png" alt="CTF">
+        </div>
+        <div class="project-content">
+        <h3> Capture The Flag </h3>
+        <p> Our team participated in a comprehensive Capture The Flag competition featuring challenges across multiple cybersecurity domains including:
+
+Web exploitation (Gottagofast, Broken-eh, Homie challenges)
+Cryptography (XORry, Vinegar, Rizz Me Up)
+Forensics (Scout Code, Color Theory, Nightmare)
+OSINT (Find my friend, MyFavourite)
+As team leader, I coordinated our efforts across 25+ challenges, solving critical vulnerabilities like command injection, SQLi, and JWT weaknesses..</p>
+        <div class="project-buttons">
+            <a href="https://docs.google.com/document/d/1S92YHOZicizrdVjiCE3bYSFfgrZa2EUSFU7DGjUeU0c/edit?tab=t.0 " class="btn btn-secondary btn-view-code" target="_blank">View Code</a>
+        </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+        <img src="images/ProjectSE.png" alt="midexamSE">
+        </div>
+        <div class="project-content">
+        <h3>Inventory Management System</h3>
+        <p>Developed a full-stack web application for business operations featuring dual modules: customer sales processing and raw material workflow management. 
+            Implemented with HTML, CSS, and JavaScript, the system automates critical calculations while enforcing business logic validation.</p>
+        <div class="project-buttons">
+            <a href="https://github.com/rrrrraaaaaaa/SoftEngeneering" class="btn btn-secondary btn-view-code" target="_blank">View Code</a>
+        </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+        <img src="images/web programming project.png" alt="FoodOrder">
+        </div>
+        <div class="project-content">
+        <h3>Food Ordering Website</h3>
+        <p>Designed and developed a full-featured restaurant website with interactive ordering capabilities. Built with clean HTML/CSS, the platform showcases menu items with pricing, customer testimonials, and an intuitive order 
+            form - all connected through a manually-coded navigation system for seamless browsing.</p>
+        <div class="project-buttons">
+            <a href="https://github.com/rrrrraaaaaaa/ProjectWebPrograming/tree/main/Project%201%20Web%20Programming" class="btn btn-secondary btn-view-code" target="_blank">View Code</a>
+        </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+        <img src="images/ssip.jpg" alt="Library System">
+        </div>
+        <div class="project-content">
+        <h3>Skincare Management System</h3>
+        <p>A responsive PHP based web application designed to manage skincare product data with full CRUD capabilities. The system allows users to register, log in, and manage a catalog of skincare products add, view, update, or delete entries through an intuitive dashboard. 
+            Built with user experience and aesthetic design in mind, the platform supports responsive views, real time feedback, and ensures data integrity with validation mechanisms.</p>
+        <div class="project-buttons">
+            <a href="https://github.com/rrrrraaaaaaa/ProjectSSIP/tree/main/ProjectSSIP-main" class="btn btn-secondary btn-view-code" target="_blank">View Code</a>
+        </div>
+        </div>
+    </div>
+
+    </div>
+</div>
+</section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certificates</h2>
+                
+            </div>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="images/sertiambass.jpg" alt="Dealls Job Ambassador Certificat">
+                    </div>
+                    <div class="certificate-content">
+                        <div class="certificate-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3>National Ambassador Dealls Job</h3>
+                        <p>DEalls Job Sejuta Cita</p>
+                        <span class="certificate-date">2024</span>
+                        <div class="certificate-skills">
+                            <span>Communication</span>
+                            <span>Leader Ship</span>
+                            <span>TeamWork</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="images/sertimediccsgo.jpg" alt="JavaScript Certificate">
+                    </div>
+                    <div class="certificate-content">
+                        <div class="certificate-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <h3>Medic CSGO</h3>
+                        <p>Medical Team in CSGO</p>
+                        <span class="certificate-date">2025</span>
+                        <div class="certificate-skills">
+                            <span>Emergency Response</span>
+                            <span>Esports Events</span>
+                            <span>Team Coordination</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="images/sertiyot.jpg" alt="UI/UX Certificate">
+                    </div>
+                    <div class="certificate-content">
+                        <div class="certificate-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3>YOTERS</h3>
+                        <p>Volunteer YOTFuture</p>
+                        <span class="certificate-date">2024</span>
+                        <div class="certificate-skills">
+                            <span>Event Management</span>
+                            <span>Youth Mentoring</span>
+                            <span>Community Service</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="section-subtitle">Let's collaborate and build something amazing</p>
+        </div>
+
+        <div class="contact-content">
+            <!-- Left Side: Contact Info -->
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <a href="mailto:nurrekyandraeni@gmail.com?subject=Portfolio Inquiry&body=Hello Rezky,">nurrekyandraeni@gmail.com</a>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Phone</h3>
+                        <a href="tel:+6285326998107">+62 853 2699 8107</a>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Location</h3>
+                        <p>Jakarta, Indonesia</p>
+                    </div>
+                </div>
+                
+                <div class="cv-download">
+                    <a href="assets/NurRezkyAndraeni-Resume.pdf" class="btn btn-primary cv-btn" id="downloadCV" download="CV_NurRezkyAndraeni.pdf">
+                        <i class="fas fa-download"></i>
+                        <span>Download CV</span>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Right Side: Social Media -->
+            <div class="contact-social">
+                <h3>Find Me On</h3>
+                <div class="social-grid">
+                    <a href="https://github.com/rrrrraaaaaaa" target="_blank" class="social-card">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nur-rezky-andraeni-7b110228b" target="_blank" class="social-card">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://www.instagram.com/n.rraa7" target="_blank" class="social-card">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://www.tiktok.com/@raarrarrraaa" target="_blank" class="social-card">
+                        <i class="fab fa-tiktok"></i>
+                        <span>TikTok</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 NRA.Ball. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="main.js"></script>
+</body>
+</html>
